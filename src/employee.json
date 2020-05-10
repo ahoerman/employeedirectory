@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Leslie Knope",
+      "image": "./images/LeslieKnope.png",
+      "occupation": "Deputy Director",
+      "phone": "555-5740",
+      "email": "leslie@pawnee.org"
+    },
+    {
+      "id": 2,
+      "name": "Andy Dwyer",
+      "image": "./images/AndyDwyer.jpg",
+      "occupation": "Shoe Shiner",
+      "phone": "555-2328",
+      "email": "andy@pawnee.org"
+    },
+    {
+      "id": 3,
+      "name": "Ann Perkins",
+      "image": "./images/AnnPerkins.jpg",
+      "occupation": "Registered Nurse",
+      "phone": "555-2393",
+      "email": "ann@pawnee.org"
+    },
+    {
+      "id": 4,
+      "name": "April Ludgate",
+      "image": "./images/AprilLudgate.png",
+      "occupation": "Intern",
+      "phone": "555-2039",
+      "email": "april@pawnee.org"
+    },
+    {
+      "id": 5,
+      "name": "Ben Wyatt",
+      "image": "./images/BenWyatt.jpg",
+      "occupation": "State Auditor",
+      "phone": "555-0245",
+      "email": "ben@pawnee.org"
+    },
+    {
+      "id": 6,
+      "name": "Chris Traeger",
+      "image": "./images/ChrisTraeger.jpg",
+      "occupation": "State Auditor",
+      "phone": "555-8957",
+      "email": "chris@pawnee.org"
+    },
+    {
+      "id": 7,
+      "name": "Donna Meagle",
+      "image": "./images/DonnaMeagle.jpg",
+      "occupation": "Office Manager",
+      "phone": "555-8596",
+      "email": "donna@pawnee.org"
+    },
+    {
+      "id": 8,
+      "name": "Jean-Ralphio Saperstein",
+      "image": "./images/JeanRalphio.jpeg",
+      "occupation": "Entrepeneur",
+      "phone": "555-1928",
+      "email": "jeanralphio@pawnee.org"
+    },
+    {
+      "id": 9,
+      "name": "Jerry Gergich",
+      "image": "./images/JerryGergich.jpg",
+      "occupation": "Junior Director",
+      "phone": "555-8428",
+      "email": "Jerry@pawnee.org"
+    },
+    {
+      "id": 10,
+      "name": "Ron Swanson",
+      "image": "./images/RonSwanson.jpg",
+      "occupation": "Director",
+      "phone": "555-9453",
+      "email": "ron@pawnee.org"
+    },
+    {
+      "id": 11,
+      "name": "Tom Haverford",
+      "image": "./images/TomHaverford.jpg",
+      "occupation": "Office Administrator",
+      "phone": "555-8569",
+      "email": "tom@pawnee.org"
+    }
+  ]
+  
