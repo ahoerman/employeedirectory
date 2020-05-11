@@ -11,12 +11,13 @@ class App extends Component {
     employees
   };
 
-  removeEmployee = id => {
+  handleUserInput = userinput => {
     // Filter this.state.employees for employees with an id not equal to the id being removed
-    const employees = this.state.employees.filter(employee => employee.id !== id);
+    const employees = this.state.employees.filter(employee => employee === userinput);
     // Set this.state.employees equal to the new employees array
     this.setState({ employees });
   };
+
 
   // Map over this.state.employees and render a employeeCard component for each employee object
   render() {
@@ -26,7 +27,6 @@ class App extends Component {
         <Search userinput={this.state.userinput} handler={this.handleUserInput}/>
         {this.state.employees.map(employee => (
           <EmployeeCard
-            removeEmployee={this.removeEmployee}
             id={employee.id}
             key={employee.id}
             name={employee.name}
