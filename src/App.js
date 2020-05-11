@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Search from "./components/EmployeeCard/search";
 import employees from "./employee.json";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
+        <Search userinput={this.state.userinput} handler={this.handleUserInput}/>
         {this.state.employees.map(employee => (
           <EmployeeCard
             removeEmployee={this.removeEmployee}

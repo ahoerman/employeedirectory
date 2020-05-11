@@ -31,3 +31,8 @@
 .card > .content > ul > li {
   margin-top: 18px;
 }
+
+.searchbar {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
