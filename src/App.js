@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Search from "./components/EmployeeCard/search";
+import Search from "./components/Search/search";
+import Sort from "./components/Search/sort"
 import employees from "./employee.json";
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
       <Wrapper>
         <Title>Employee Directory</Title>
         <Search userinput={this.state.userinput} handler={this.handleUserInput}/>
+        <Sort />
         {this.state.employees.map(employee => (
           <EmployeeCard
             id={employee.id}
